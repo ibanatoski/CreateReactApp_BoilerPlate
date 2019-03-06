@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import 'css/App.css';
+import 'scss/App.scss';
 
 import SampleComponent from "components/SampleComponent.jsx"
 
