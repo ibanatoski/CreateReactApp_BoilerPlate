@@ -59,7 +59,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "clean": "rm -r node_modules"
+    "clean": "rm -r node_modules",
+    "prettier": "prettier --write src/**/*.js && prettier --write src/**/*.jsx"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -73,7 +74,9 @@
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "babel-loader": "^8.0.5",
+    "eslint-plugin-prettier": "^3.0.1",
     "node-sass": "^4.11.0",
+    "prettier": "^1.16.4",
     "react-hot-loader": "^4.7.2",
     "sass-loader": "^7.1.0"
   },

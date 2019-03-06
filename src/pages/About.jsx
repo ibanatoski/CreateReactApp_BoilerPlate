@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import logo from '../logo.svg';
-import 'scss/About.scss';
+import React, { Component } from "react";
+import logo from "../logo.svg";
+import "scss/About.scss";
 
-import SampleComponent from "components/SampleComponent.jsx"
+import SampleComponent from "components/SampleComponent.jsx";
 
 class AboutPage extends Component {
   render() {

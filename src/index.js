@@ -1,29 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'scss/index.scss';
-import App from './App';
-import { AppContainer } from 'react-hot-loader';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "scss/index.scss";
+import App from "./App";
+import { AppContainer } from "react-hot-loader";
+import * as serviceWorker from "./serviceWorker";
 
 const render = Component => {
   ReactDOM.render(
     <AppContainer>
       <Component />
     </AppContainer>,
-    document.getElementById('root'),
-  )
-}
+    document.getElementById("root")
+  );
+};
 
-render(App)
-
+render(App);
 
 // webpack Hot Module Replacement API
 if (module.hot) {
   // keep in mind - here you are configuring HMR to accept CHILDREN MODULE
   // while `hot` would configure HMR for the CURRENT module
-  module.hot.accept('./App', () => {
+  module.hot.accept("./App", () => {
     render(App);
-  })
+  });
 
   //Add different paths to trigger hot reloading for changes in contents
 }
