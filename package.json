@@ -12,6 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "clean": "rm -r node_modules",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
