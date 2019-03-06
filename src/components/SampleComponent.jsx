@@ -12,6 +12,7 @@ class SampleComponent extends Component {
     return (
       <div className="sample-component-div">
         <h1>This is a sample component</h1>
+        <p>I Love React!</p>
       </div>
     );
   }
