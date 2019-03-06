@@ -17,3 +17,6 @@ Start up the application!
 ```
   $ npm start
 ```
+# Naming Convention
+ - **Folders** - All folder names should be undercase and camel case. (Ex. /components/ProfileCard.jsx)
+ - **Files** - All file names should have their first letter Capitalized and the first letter of following words Capitalized. (Ex. /components/ProfileCard.jsx)
