@@ -10,11 +10,7 @@ class SampleComponent extends Component {
   render() {
     return (
       <div className="sample-component-div">
-        <h1>
-          This is a sample component This is a sample component This is a sample
-          a sda sdasdasdasdasdsa component This is a sample component This is a
-          sample component.
-        </h1>
+        <h1>This is a sample component.</h1>
         <p>I Love React!</p>
       </div>
     );
